@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>bucket</title>
-    <link href="/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="/libs/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
 </head>
 <body>
 
@@ -12,7 +12,7 @@
         <li class="list-group-item"><a href="{{ route('path', array_merge(Request::all(),['b' => $bucketInfo -> getName()])) }}">{{ $bucketInfo -> getName() }}</a></li>
     @endforeach
 </ul>
-<script src="/jquery/dist/jquery.js"></script>
-<script src="/bootstrap/dist/js/bootstrap.js"></script>
+<script src="/libs/jquery/dist/jquery.js"></script>
+<script src="/libs/bootstrap/dist/js/bootstrap.js"></script>
 </body>
 </html>

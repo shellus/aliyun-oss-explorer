@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>目录：{{ $path }}</title>
-    <link href="/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="/libs/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
 </head>
 <body>
 <ul class="list-group">
@@ -54,8 +54,8 @@
     @endforeach
 
 </ul>
-<script src="/jquery/dist/jquery.js"></script>
-<script src="/bootstrap/dist/js/bootstrap.js"></script>
+<script src="/libs/jquery/dist/jquery.js"></script>
+<script src="/libs/bootstrap/dist/js/bootstrap.js"></script>
 <script>
     $(function () {
         $(document).on('submit', '.sign-url-form', function (event) {
